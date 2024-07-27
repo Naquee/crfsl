@@ -5,6 +5,7 @@ import { MainButton } from "./MainButton";
 import fintech from "../Assets/fintech.svg"
 import homeScreen from "../Assets/homescreen4.svg"
 import OurServices from "./OurServices";
+import { BarChart } from "./BarChart";
 // import Fin from "../Assets/Fin";
 
 interface HeroSectionProps {
@@ -37,6 +38,7 @@ const HeroSection = () => {
         />
       </Flex>
       <OurServices/>
+      <BarChart/>
     </Box>
   );
 };
